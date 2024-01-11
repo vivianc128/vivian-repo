@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hello world!</h1>
+    <p class = 'A'>My name is Vivian Chong.</p>
+    <button id = 'navigateButton'>Go to next</button>
+
+    <!--javascript-->
+    <!-- adding click feature to button (above) to go to a new page chart.html -->
+    <script>
+        const navigateButton = document.getElementById('navigateButton') 
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'chart.html'
+        })
+    </script>
+</body>
+</html>

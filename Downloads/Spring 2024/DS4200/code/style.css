@@ -1,0 +1,19 @@
+/* id */ 
+#main {
+    color:red;
+}
+
+/* class */
+.A{
+    color:rgb(9,9,232);
+}
+
+h1 {
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#navigateButton{
+    color: red;
+}
